@@ -1,0 +1,6 @@
+#title1 {
+  font-size: 5em;
+  text-align: center;
+}
+
+#title1:first-letter { color: red; }
