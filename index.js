@@ -23,13 +23,13 @@ app.listen(process.env.PORT || 3000, function() {
   console.log("完成語 listening on port 3000.");
 });
 
+//single random object for random 成語
 app.get("/oftheday", function(req, res) {
-  db.chengyu.find(function(err, docs) {
+  db.chengyu.aggregate([{$sample:{ size:1 }}], function(err, doc) {
     if(err)
       console.log(err);
     else {
-      res.json(docs);
-      console.log('yo!')
+      res.json(doc);
     }
   });
 });

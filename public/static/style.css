@@ -1,6 +1,36 @@
-#title1 {
-  font-size: 5em;
+body {
+  background-color: #F9F9F9;
+}
+
+#logo-main {
+  display: block;
+  margin: 50px auto 0px auto;
+}
+
+#tagline {
   text-align: center;
 }
 
-#title1:first-letter { color: red; }
+.card {
+  background-color: white;
+  height: 300px;
+  width: 500px;
+  margin: 10% auto;
+  border: 1px solid gray;
+  box-shadow: 2px 2px 2px #000;
+}
+
+#daily {
+  margin: 40px auto 0px auto;
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+}
+
+#card_chinese {
+  padding: 10px;
+}
+#card_sentence {
+  padding: 10px;
+  color: gray;
+}
