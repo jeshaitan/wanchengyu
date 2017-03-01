@@ -13,8 +13,8 @@ body {
 
 .card {
   background-color: white;
-  height: 300px;
-  width: 500px;
+  height: 350px;
+  width: 550px;
   margin: 10% auto;
   border: 1px solid gray;
   box-shadow: 2px 2px 2px #000;
@@ -27,10 +27,11 @@ body {
   font-size: 30px;
 }
 
-#card_chinese {
-  padding: 10px;
+#daily div {
+  padding: 5px;
 }
-#card_sentence {
-  padding: 10px;
-  color: gray;
+
+#type {
+  font-size: 20px;
+  color: black;
 }
