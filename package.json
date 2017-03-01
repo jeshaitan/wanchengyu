@@ -6,14 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "express": "*",
-    "body-parser": "*",
-    "mongodb": "*",
-    "mongojs": "*",
-    "express-session": "*",
-    "fs": "*"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jeshaitan/wanchengyu.git"
@@ -30,5 +22,13 @@
   "bugs": {
     "url": "https://github.com/jeshaitan/wanchengyu/issues"
   },
-  "homepage": "https://github.com/jeshaitan/wanchengyu#readme"
+  "homepage": "https://github.com/jeshaitan/wanchengyu#readme",
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "express-session": "*",
+    "fs": "0.0.2",
+    "mongodb": "*",
+    "mongojs": "*"
+  }
 }
